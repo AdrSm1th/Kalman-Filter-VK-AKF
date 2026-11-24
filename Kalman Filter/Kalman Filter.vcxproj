@@ -130,10 +130,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\DataGenerator.cpp" />
+    <ClCompile Include="src\KalmanFilter.cpp" />
     <ClCompile Include="src\main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\DataGenerator.h" />
+    <ClInclude Include="include\KalmanFilter.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
