@@ -27,9 +27,15 @@
     <ClCompile Include="src\DataGenerator.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="src\KalmanFilter.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\DataGenerator.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="include\KalmanFilter.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>

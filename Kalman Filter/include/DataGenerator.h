@@ -31,7 +31,7 @@ struct GeneratorConfig {
 
    double period = 100.0;
 
-   NoiseType scenario = NoiseType::Sinusoidal;
+   NoiseType scenario = NoiseType::Constant;
 };
 
 std::vector<Sample> gen_samples(const GeneratorConfig &config);
